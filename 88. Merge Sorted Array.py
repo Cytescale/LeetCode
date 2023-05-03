@@ -1,15 +1,7 @@
-import math
-
-
-# num1 = [0]
-# num2 = [1]
-# m = 0
-# n = 1
 num1 = [1, 2, 3, 0, 0, 0]
 num2 = [2, 5, 6]
 m = 3
 n = 3
-
 
 def merge(nums1, m, nums2, n):
     j = 0
