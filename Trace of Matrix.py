@@ -1,5 +1,3 @@
-
-
 def getlist():
     return list(map(int, input().split()))
 
@@ -16,7 +14,7 @@ def solve(arr, n):
             s = i
             r = j
             trace = 0
-            while (s < n and r < n):
+            while s < n and r < n:
                 trace += arr[s][r]
                 s += 1
                 r += 1
@@ -26,7 +24,6 @@ def solve(arr, n):
 
 
 def main():
-
     n = int(input())
     for _ in range(n):
         s = int(input())

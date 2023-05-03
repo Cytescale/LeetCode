@@ -21,7 +21,7 @@ def main():
                 fl = 1
                 break
         if fl == 1:
-            print('Good');
+            print('Good')
         else:
             print('Bad')
         n -= 1
